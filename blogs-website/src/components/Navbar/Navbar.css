@@ -1,0 +1,23 @@
+.navbar {
+    font-family: "Josefin Sans", sans-serif;
+    z-index: 999;
+}
+
+.topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.dropleft .dropdown-menu {
+    margin-right: 4rem;
+    margin-top: -10px;
+}
